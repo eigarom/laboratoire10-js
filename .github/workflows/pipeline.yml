@@ -17,9 +17,8 @@ jobs:
       - name: Fix vulnerabilities
         run: npm audit fix
       - name : Run tests
-        run : npm run test
-      - name: Coveralls
         run : npm run test-coverage
+      - name: Coveralls
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
