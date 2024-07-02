@@ -24,7 +24,7 @@ describe('string is ', () => {
 	});
 
 	test('a palindrome', () => {
-		let string1 = "ab";
+		let string1 = "a";
 		let string2 = "aaaa";
 		let string3 = "laval";
 		let string4 = "racecar";
